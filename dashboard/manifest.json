@@ -1,0 +1,13 @@
+{
+  "name": "brain",
+  "label": "Brain",
+  "description": "Read-only viewer for the GBrain knowledge vault",
+  "icon": "Brain",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/brain",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}
