@@ -4,6 +4,8 @@ A read-only, deep-linkable viewer for a folder of markdown notes, rendered as a 
 
 Built for personal knowledge-base setups where an AI agent (or you) writes notes to a directory and you want a clean way to browse them — without running a separate Obsidian / Logseq / wiki stack.
 
+> **Primarily designed for use with [GBrain](https://github.com/garrytan/gbrain)** — a local-first, agent-native markdown knowledge base. GBrain handles the note-writing side (people, companies, projects, daily logs); this plugin gives you a browsable view of that vault inside your Hermes dashboard. It works with any folder of `.md` files, but the wikilink conventions and frontmatter format match GBrain's defaults out of the box.
+
 ## Features
 
 - **File tree** of your vault (folders + `.md` files), grouped by directory
